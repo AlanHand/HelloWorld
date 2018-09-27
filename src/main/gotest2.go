@@ -12,6 +12,7 @@ type worker2 struct{
 
 func main() {
 	chanDemo2()
+
 }
 func chanDemo2() {
 	var wg sync.WaitGroup
